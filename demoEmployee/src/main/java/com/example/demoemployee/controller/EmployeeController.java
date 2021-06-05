@@ -1,9 +1,9 @@
-package controller;
+package com.example.demoemployee.controller;
 
-import entity.Employee;
+import com.example.demoemployee.entity.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import repository.EployeeJPARepository;
+import com.example.demoemployee.repository.EployeeJPARepository;
 
 import java.util.List;
 
